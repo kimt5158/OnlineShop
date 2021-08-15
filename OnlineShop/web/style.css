@@ -1,0 +1,232 @@
+@charset "ISO-8859-1";
+
+/* login-signup */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.signup-header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background:black;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+
+}
+
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    font-size:16px;
+}
+
+.signup-group {
+    margin: 10px 0px 10px 0px;
+}
+.signup-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.signup-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size:14px;
+}
+.signup-btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background:black;
+    border: none;
+    border-radius: 5px;
+}
+
+mark{
+    color:grey;
+    background:black;
+    font-size:26px;
+}
+
+
+/* Navbar */
+
+header{
+    width:100%;
+    height:70px;
+    background-color: black;
+}
+
+h1{
+    position:absolute;
+    padding:3px;
+    float:left;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: white;
+}
+
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2vw;
+}
+
+a:hover {
+    color: #F0c330;
+    transition: 0.5s;
+}
+
+/* Content */
+.tiazon-content{
+    padding-bottom: 50px;
+    padding-top: 50px;	
+}
+
+/* Footer */
+.footer{
+    background: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* cart */
+table th{
+    text-align: left;
+    background-color: #3a6070;
+    color: white;
+    padding: 4px 30px 4px 8px;
+}
+
+table td{
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+productDetails{
+    float: right;
+    margin: 50px;
+}
+
+.productIma{
+    float: left;
+}
+.productIma > *{
+    margin: 10px;
+}
+.smallIma{
+    display: inline;
+}
+.bigIma img{
+    height: 350px;
+    width: 350px;
+}
+.smallIma img{
+    height: 100px;
+    width: 100px;
+}
+
+.detailsPrice{
+    margin: 0;
+    padding: 0px 0 0 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.frame{
+    margin-top: 0px;
+    margin-left: 500px;
+    float: left;
+    display: inline-block;
+    width: 894px;
+    min-width: 894px;
+}
+
+.wrap_main{
+    width: 1212px;
+    min-width: 1212px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.overflow_auto{
+    overflow: auto;
+}
+
+.pagination {
+    display: inline-block;
+
+}
+.pagination a {
+    color: red;
+    background-color: aqua;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: chocolate;
+}
+
+.section-head{
+	margin: 0;
+	font-size: 22px;
+	border: 1px solid rgba(191,191,191,1.00);
+	margin-left: 2px;
+	padding-top: 8px;
+	width: 858px;
+	padding-bottom: 5px;
+	text-indent: 30px;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	border-radius: 8px;
+}
+
+.left-menu{
+        padding-top: 100px;
+}
+
+.search-box{
+	padding: 10px;
+	border: 1;
+	border-radius: 15px 0 0  15px;
+	width: 180px;
+	text-indent: 10px;
+}
